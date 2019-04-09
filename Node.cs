@@ -31,7 +31,7 @@ public class Node : MonoBehaviour
 
         if (turret != null)
         {
-            Debug.Log("Yeet");
+            Debug.Log("You can not build there");
             return;
         }
         buildManager.BuildTurretOn(this);
